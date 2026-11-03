@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progrss Bar Ozon</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <my-progress id="progress"></my-progress>
+      <div class="checkboxes">
+        <label>
+          <input
+            id="value"
+            type="number"
+            min="0"
+            max="100"
+            step="1"
+            value="75"
+          />
+          Value
+        </label>
+        <input id="animate" class="switch-input" type="checkbox" />
+        <label class="switch" for="animate">Animate</label>
+        <input id="hide" class="switch-input" type="checkbox" />
+        <label class="switch" for="hide">Hide</label>
+      </div>
+    </div>
+  </body>
+</html>
